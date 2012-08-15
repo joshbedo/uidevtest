@@ -102,9 +102,23 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Main styles
    ========================================================================== */
-
+body{font-family:"MS Trebuchet",sans-serif;font-size:14px;}
+.orange{color:orange;}
+.breadcrumbs ul{padding:0;}
+.breadcrumbs ul li a{color:orange;}
+.breadcrumbs ul li:first-child{margin:0;}
+.breadcrumbs ul li:first-child:before{content:"";padding:0;}
+.breadcrumbs ul li{float:left;list-style:none;margin-left:20px;}
+.breadcrumbs ul li:before{content: " > ";padding-right:10px;}
+#sidebar{margin:0;}
+h1{font-family:Georgia,"Times New Roman",Times,serif and Arial,"MS Trebuchet",sans-serif;}
+article .heading h2,article .heading h3{margin:0;}
+article .heading h2{font-size:18px;margin-top:10px;line-height:18px;}
+article .heading h3{text-transform:uppercase;font-weight:normal;}
+.published{margin-top:20px;}
+.published p{margin:0;}
 
 
 
