@@ -129,7 +129,22 @@ article .heading h3{text-transform:uppercase;font-weight:normal;}
 .social ul li:first-child:before{content:"";padding-left:0;}
 .social ul li{list-style:none;float:left;margin:5px 10px 5px 0;}
 .social ul li:before{content:"|";padding-right:10px;}
-.social ul li a{color:orange;}
+.social ul li a{color:orange;line-height:22px;}
+/* -- NOT NEEDED WITH TWITTER BOOTSTRAP ICONS ---*/
+.comment span, .email span, .print span, .share span, .plus span, .minus span{
+	background:url(../images/sprites.gif) no-repeat;
+	display:inline-block;
+	width:18px;
+	height:18px;
+}
+.comment span{background-position:0px -474px;}
+.email span{background-position:0px -248px;}
+.print span{background-position:0px -295px}
+.share span{background-position:0px -340px;}
+.plus span{background-position:0px -383px;}
+.minus span{background-position:0px -428px;}
+.enlarge span{background-position:0px -387px;float:left;margin:0;}
+
 
 
 
