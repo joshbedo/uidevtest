@@ -105,7 +105,9 @@ textarea {
    Main styles
    ========================================================================== */
 body{font-family:"MS Trebuchet",sans-serif;font-size:14px;}
+a:visited{color:orange;}
 .orange{color:orange;}
+.bold{font-weight:bold;}
 .breadcrumbs ul{padding:0;}
 .breadcrumbs ul li a{color:orange;}
 .breadcrumbs ul li:first-child{margin:0;}
@@ -113,13 +115,21 @@ body{font-family:"MS Trebuchet",sans-serif;font-size:14px;}
 .breadcrumbs ul li{float:left;list-style:none;margin-left:20px;}
 .breadcrumbs ul li:before{content: " > ";padding-right:10px;}
 #sidebar{margin:0;}
+.image span{color:#aaa;float:right;text-align:right;font-weight:bold;font-size:12px;margin:6px 0 10px;}
+.image p{line-height:16px;}
 h1{font-family:Georgia,"Times New Roman",Times,serif and Arial,"MS Trebuchet",sans-serif;}
 article .heading h2,article .heading h3{margin:0;}
-article .heading h2{font-size:18px;margin-top:10px;line-height:18px;}
+article .heading h2{font-size:18px;margin-top:2px;line-height:18px;}
 article .heading h3{text-transform:uppercase;font-weight:normal;}
-.published{margin-top:20px;}
+.published{margin-top:10px;}
 .published p{margin:0;}
-.social{border-top:1px dotted #000;}
+.social{border-top:1px dotted #000;margin-top:15px;overflow:hidden;}
+.social ul{padding:0;margin:0;}
+.social ul li:first-child{margin:5px 10px 0 0;}
+.social ul li:first-child:before{content:"";padding-left:0;}
+.social ul li{list-style:none;float:left;margin:5px 10px 5px 0;}
+.social ul li:before{content:"|";padding-right:10px;}
+.social ul li a{color:orange;}
 
 
 

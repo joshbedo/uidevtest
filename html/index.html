@@ -36,11 +36,11 @@
 		  <div class="image">
 			<img src="../images/basketball.jpg" alt="Texas puts perfect mark on line at Kansas State" />
 			<span>Laura Skelding/AMERICAN-STATESMAN</span>
-			<a href="#" class="enlarge">ENLARGE PHOTO</a>
-			<p>Texas senior forward Danion James and freshman
+			<a href="#" class="enlarge orange"><i class="icon-plus"></i> ENLARGE PHOTO</a>
+			<p class="bold">Texas senior forward Danion James and freshman guard Avery Bradley will be on alert against Kansas State just as they were against Texas A&amp;M's David Loubeau, center, on Saturday.</p>
 		  </div>
 		</div>
-		<div id="main" class="span4">
+		<div id="main" class="span6">
 			<article>
 				<div class="heading">
 					<h2>By <span class="author orange">Mark Rosner</span></h2>
@@ -56,7 +56,7 @@
 							<li class="print"><a href="#"><i class="icon-print"></i> Print</a></li>
 							<li class="share"><a href="#"><i class="icon-print"></i> Share</a></li>
 							<li class="largerType"><a href="#"><i class="icon-plus"></i> Larger Type</a></li>
-							<li style="display:none;" class="smallerType"><a href="#"><span></span> Smaller Type</a></li>
+							<li style="display:none;" class="smallerType"><a href="#"><i class="icon-minus"></i> Smaller Type</a></li>
 						</ul>
 					</div>
 				</div>
@@ -78,5 +78,19 @@
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$('.largerType').click(function(){
+				$(this).css("display","none");
+				$('.smallerType').css("display", "block");
+				$('.content').css("font-size", "18px");
+			});
+			$('.smallerType').click(function(){
+				$(this).css("display","none");
+				$('.largerType').css("display", "block");
+				$('.content').css("font-size", "14px");
+			});
+		});
+		</script>
     </body>
 </html>
